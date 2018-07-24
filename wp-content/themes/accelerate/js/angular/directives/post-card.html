@@ -1,0 +1,14 @@
+<a href="{{post.link}}" class="no-effect-anchor">
+<div class="post-card">
+    <div class="post-card-container">
+        <center>
+            <img class="post-card-image" ng-src="{{post.first_image}}">
+        </center>
+        <div class="post-card-content">
+            <h4 ng-bind-html="post.title.rendered"></h4>
+            <div ng-bind-html="post.excerpt.rendered"></div>
+            <!--<a class="new-read-more" href="{{post.link}}">Read More</a>-->
+        </div>
+    </div>
+</div>
+</a>

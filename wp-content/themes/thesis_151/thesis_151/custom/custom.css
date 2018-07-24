@@ -1,0 +1,10 @@
+.custom #header { border-bottom:none;
+height:90px;
+padding-top:0;
+padding-bottom:0;
+background:url(http://charityhowto.com/blog/myimages/charity_728x90_1.gif)
+center left no-repeat; }
+
+.custom #header #logo { display:none; }
+
+.custom #header #tagline { display:none; }

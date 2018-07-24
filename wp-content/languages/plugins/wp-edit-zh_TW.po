@@ -1,0 +1,893 @@
+# Translation of Plugins - WP Edit - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WP Edit - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-06 07:28:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WP Edit - Stable (latest release)\n"
+
+#: main.php:1947
+msgid "WP Edit Rating Statistics"
+msgstr "WP Edit 評分統計"
+
+#: main.php:1291
+msgid "Custom Post Type Excerpts"
+msgstr "為自訂文章類型啟用摘要"
+
+#: main.php:1136
+msgid "Please direct all your favorite plugin/theme developers to the <a target=\"_blank\" href=\"%s\">Custom Buttons API</a> documentation."
+msgstr "請將這項資訊轉達給你喜愛外掛/佈景主題的開發者，並請他們參考這份《<a href=\"%s\" target=\"_blank\">自訂按鈕 API</a>》線上說明。"
+
+#: main.php:1135
+msgid "WP Edit now uses a Custom Buttons API which allows other plugin/theme developers to add their editor buttons into the system."
+msgstr "WP Edit 目前使用的 Custom Buttons API，能讓其他外掛/佈景主題開發者將他們的編輯器按鈕加入 WP Edit 中。"
+
+#: main.php:1108
+msgid "Custom Buttons API"
+msgstr "自訂按鈕 API"
+
+#: main.php:1061
+msgid "Move them to a new location (if desired) and click \"Save Buttons\"."
+msgstr "如果需要的話，將他們移動至新位置，然後按一下 [儲存按鈕配置]。"
+
+#: main.php:1059
+msgid "New buttons have been added via other plugins (or theme)."
+msgstr "已加入來自其他外掛或佈景主題的按鈕。"
+
+#: main.php:451
+msgid "To remove this message; simply visit the \"Buttons\" tab and save the buttons."
+msgstr "要移除這項訊息，請至 [按鈕配置] 標籤頁中按一下 [儲存按鈕配置]。"
+
+#: main.php:450
+msgid "These buttons came from a plugin or theme that has been deactivated."
+msgstr "這些按鈕來自於停用的外掛或佈景主題。"
+
+#: main.php:441
+msgid "The following buttons have been removed:"
+msgstr "已移除以下按鈕:"
+
+#: main.php:1531
+msgid "Replaces default textarea with modified visual editor."
+msgstr "以進階的視覺化編輯器取代預設的文字區塊。"
+
+#: main.php:1528
+msgid "Enable Visual BBPRess Editor"
+msgstr "啟用 BBPress 的視覺化編輯器"
+
+#: main.php:1524
+msgid "Options for the editor used in the BBPress forums."
+msgstr "BBPress 論壇的編輯器使用設定。"
+
+#: main.php:1519
+msgid "BBPress Options"
+msgstr "BBPress 設定"
+
+#: main.php:1305
+msgid "No registered custom post types were found."
+msgstr "找不到已註冊的自訂文章類型。"
+
+#. Author of the plugin/theme
+msgid "Josh Lobe"
+msgstr "Josh Lobe"
+
+#. Description of the plugin/theme
+msgid "Ultimate WordPress Content Editing."
+msgstr "功能最完整的 WordPress 內容編輯器。繁體中文本地化由《<a href=\"https://www.alexclassroom.com/\" target=\"_blank\">阿力獅的教室</a>》站長<a href=\"https://www.facebook.com/captain.alexlion\" target=\"_blank\">阿力獅</a>提供。"
+
+#. #-#-#-#-#  wp-edit-code.pot (WP Edit 4.0.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-edit-code.pot (WP Edit 4.0.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wpeditpro.com"
+msgstr "https://wpeditpro.com"
+
+#: main.php:3235
+msgid "If only one row of buttons is visible; try clicking the <a target=\"_blank\" href=\"http://learn.wpeditpro.com/wordpress-tinymce-editor/#ipt_kb_toc_73_6\">\"Toolbar Toggle\"</a> button to expand/collapse additional editor button rows."
+msgstr "如果僅顯示一列按鈕項目列，請按一下 [<a href=\"http://learn.wpeditpro.com/wordpress-tinymce-editor/#ipt_kb_toc_73_6\" target=\"_blank\">工具列開關</a>] 按鈕，便能展開/收合編輯器的按鈕項目列。"
+
+#: main.php:3234
+msgid "WP Edit Tip"
+msgstr "WP Edit 秘訣"
+
+#: main.php:3117
+msgid "* Plugin documentation is being added to our <a target=\"_blank\" href=\"http://learn.wpeditpro.com\">Knowledge Base</a>. Check back frequently for more tutorial articles."
+msgstr "* 外掛線上說明可在我們的<a href=\"http://learn.wpeditpro.com\" target=\"_blank\">知識庫</a>中取得，請定期回訪以取得更多教學課程文章。"
+
+#: main.php:3116
+msgid "Other Plugin News"
+msgstr "其他外掛新聞"
+
+#: main.php:3110
+msgid "Signup to our free <a target=\"_blank\" href=\"http://www.feedblitz.com/f/?Sub=950320\">Feedblitz</a> service; to receive important plugin news, updates and discount offers for our Pro version."
+msgstr "註冊我們免費的 <a href=\"https://app.feedblitz.com/f/?Sub=950320\" target=\"_blank\">Feedblitz</a> 服務，以取得這個外掛的重要新聞、更新及 Pro 版的優惠資訊。"
+
+#: main.php:3109
+msgid "Stay Informed"
+msgstr "取得最新資訊"
+
+#: main.php:2712
+msgid "Please upload a file to import"
+msgstr "請上傳檔案以供匯入"
+
+#: main.php:2706
+msgid "Please upload a valid .json file"
+msgstr "請上傳有效的 .json 檔案"
+
+#: main.php:2587
+msgid "You must also check the confirm box before options will be uninstalled and deleted."
+msgstr "請務必核取確認設定，才能完整解除安裝外掛並刪除所有相關的資料表。"
+
+#: main.php:2573
+msgid "Plugin settings have been restored to defaults."
+msgstr "外掛設定已還原至預設值。"
+
+#: main.php:2555 main.php:2595
+msgid "Sorry, your nonce did not verify."
+msgstr "抱歉，無法驗證一次性雜湊碼。"
+
+#: main.php:2540
+msgid "User specific options saved."
+msgstr "個別使用者功能已儲存。"
+
+#: main.php:2495
+msgid "Extra options saved."
+msgstr "附加功能設定已儲存。"
+
+#: main.php:2466
+msgid "Editor options successfully saved."
+msgstr "編輯器設定已成功儲存。"
+
+#: main.php:2433
+msgid "Posts/Pages options successfully saved."
+msgstr "文章/頁面設定已成功儲存。"
+
+#: main.php:2408
+msgid "Database Size after deletions: "
+msgstr "刪除文章版本後的資料庫大小: "
+
+#: main.php:2406 main.php:2410
+msgid "megabytes."
+msgstr "MB。"
+
+#: main.php:2404
+msgid "Database size before deletions: "
+msgstr "刪除文章版本前的資料庫大小: "
+
+#: main.php:2402
+msgid "Message: "
+msgstr "訊息: "
+
+#: main.php:2389
+msgid "No POST revisions were found to delete"
+msgstr "找不到可供刪除的文章版本"
+
+#: main.php:2387
+msgid "Revisions successfully deleted"
+msgstr "文章版本已成功刪除"
+
+#: main.php:2346
+msgid "General options successfully saved."
+msgstr "一般設定已成功儲存。"
+
+#: main.php:2293
+msgid "Global options successfully saved."
+msgstr "全域設定已成功儲存。"
+
+#: main.php:2256
+msgid "The following buttons have been removed from WP Edit Pro:"
+msgstr "以下按鈕已從 WP Edit Pro 中移除:"
+
+#: main.php:2179
+msgid "New buttons were discovered. The following buttons have been added to the Button Container:"
+msgstr "發現新按鈕。已將以下按鈕加入 [按鈕容器] 中:"
+
+#: main.php:2098
+msgid "Buttons have been saved successfully."
+msgstr "按鈕配置已成功儲存。"
+
+#: main.php:2046
+msgid "Buttons have been reset successfully."
+msgstr "按鈕配置已成功重設。"
+
+#: main.php:2016
+msgid "Plugin settings have been successfully imported."
+msgstr "外掛設定已成功匯出。"
+
+#: main.php:1929
+msgid "Rate Plugin"
+msgstr "為這個外掛評分"
+
+#: main.php:1928
+msgid "Please take a moment to rate and review this plugin on the WordPress Plugin Repository."
+msgstr "請花一點時間前往 WordPress 外掛版本庫頁面，為這個外掛進行評分並留下評論。"
+
+#: main.php:1923
+msgid "Like this Plugin?"
+msgstr "喜歡這個外掛嗎？"
+
+#: main.php:1914
+msgid "Over a dozen additional editor buttons (Image maps, YouTube Videos, and many more!)."
+msgstr "更多的編輯器按鈕，例如圖片地圖，YouTube 影片等等。"
+
+#: main.php:1913
+msgid "Over 30 additional options and settings."
+msgstr "超過 30 個進階選項及設定。"
+
+#: main.php:1912
+msgid "Powerful \"Snidget\" Builder."
+msgstr "強大的「程式碼片段小工具」建立器。"
+
+#: main.php:1911
+msgid "Limit users over what buttons they can access."
+msgstr "使用者所能使用的按鈕可以進行限制。"
+
+#: main.php:1910
+msgid "Create multiple button arrangements."
+msgstr "可建立多組按鈕配置以供不同使用者使用。"
+
+#: main.php:1909
+msgid "4 customizable button rows instead of only 2."
+msgstr "自訂按鈕項目列數量由 2 列增加到 4 列。"
+
+#: main.php:1907
+msgid "Upgrade to WP Edit Pro today; and enjoy additional options such as:"
+msgstr "升級至 WP Edit Pro，便能立刻使用以下進階功能:"
+
+#: main.php:1902 main.php:1916
+msgid "WP Edit Pro"
+msgstr "WP Edit Pro"
+
+#: main.php:1889
+msgid "Visit the <a target=\"_blank\" href=\"http://learn.wpeditpro.com/category/plugin-options/\">Knowledge Base Plugin Options</a> page to get started."
+msgstr "請造訪知識庫中的《<a target=\"_blank\" href=\"http://learn.wpeditpro.com/category/plugin-options/\" target=\"_blank\">外掛設定</a>》頁面以便開始使用。"
+
+#: main.php:1888
+msgid "Remember, complete plugin documentation can be found on our <a target=\"_blank\" href=\"http://learn.wpeditpro.com\">Knowledge Base</a>."
+msgstr "特此提醒，你可以在我們的<a href=\"http://learn.wpeditpro.com\" target=\"_blank\">知識庫</a>中找到完整的外掛線上說明。"
+
+#: main.php:1883
+msgid "Documentation"
+msgstr "線上說明"
+
+#: main.php:1874
+msgid "Knowledge Base"
+msgstr "知識庫"
+
+#: main.php:1872
+msgid "Knowledge Base:"
+msgstr "知識庫:"
+
+#: main.php:1869
+msgid "Support Forum"
+msgstr "技術支援論壇"
+
+#: main.php:1867
+msgid "Support Forum:"
+msgstr "技術支援論壇:"
+
+#: main.php:1863
+msgid "Please use the following helpful links for plugin support."
+msgstr "如需取得外掛技術支援，請造訪以下連結。"
+
+#: main.php:1858
+msgid "Support"
+msgstr "技術支援"
+
+#: main.php:1847
+msgid "jQuery Version:"
+msgstr "jQuery 版本:"
+
+#: main.php:1842
+msgid "MySql Version:"
+msgstr "MySQL 版本:"
+
+#: main.php:1837
+msgid "HTML Version:"
+msgstr "HTML 版本:"
+
+#: main.php:1832
+msgid "PHP Version:"
+msgstr "PHP 版本:"
+
+#: main.php:1827
+msgid "WordPress Version:"
+msgstr "WordPress 版本:"
+
+#: main.php:1822
+msgid "WP Edit Pro Version:"
+msgstr "WP Edit Pro 版本:"
+
+#: main.php:1818
+msgid "Plugin and server version information."
+msgstr "外掛及伺服器的相關版本資訊。"
+
+#: main.php:1812
+msgid "Information"
+msgstr "相關資訊"
+
+#: main.php:1778
+msgid "Uninstall"
+msgstr "解除安裝"
+
+#: main.php:1777
+msgid "Please confirm before proceeding"
+msgstr "執行前請核取這項設定以進行確認"
+
+#: main.php:1772
+msgid "In order to completely uninstall the plugin, AND remove all associated database tables, please use the option below."
+msgstr "如需將這個外掛進行完整的解除安裝，並刪除所有相關的資料表，請核取下方的設定。"
+
+#: main.php:1771
+msgid "This ensures the data is kept safe when troubleshooting other WordPress conflicts."
+msgstr "這樣可以在進行 WordPress 衝突的移難排解時，確保這個外掛的設定資料安全無虞。"
+
+#: main.php:1770
+msgid "Designed by intention, this plugin will not delete the associated database tables when activating and deactivating."
+msgstr "根據開發者的設計，這個外掛在進行啟用及停用時，並不會刪除資料庫中相關的資料表。"
+
+#: main.php:1768
+msgid "Uninstall WP Edit (Completely)"
+msgstr "完整解除安裝 WP Edit"
+
+#: main.php:1757
+msgid "Reset all plugin settings to their original default states."
+msgstr "將這個外掛的所有設定重設至初始預設狀態。"
+
+#: main.php:1755
+msgid "Reset WP Edit Options"
+msgstr "重設 WP Edit 設定"
+
+#: main.php:1748
+msgid "Import"
+msgstr "匯入"
+
+#: main.php:1742
+msgid "Import the plugin settings from a .json file. This file can be obtained by exporting the settings on another site using the form above."
+msgstr "從 .json 檔中匯入這個外掛的設定。這個檔案可透過在其他網站 (這個網站亦可) 中使用上方匯出功能加以取得。"
+
+#: main.php:1740
+msgid "Import WP Edit Options"
+msgstr "匯入 WP Edit 設定"
+
+#: main.php:1733
+msgid "Export"
+msgstr "匯出"
+
+#: main.php:1728
+msgid "Export the plugin settings for this site as a .json file. This allows you to easily import the configuration into another site."
+msgstr "將這個外掛的設定匯出為 .json 檔。這能讓你在其他網站 (這個網站亦可) 輕鬆匯入目前的外掛組態。"
+
+#: main.php:1726
+msgid "Export WP Edit Options"
+msgstr "匯出 WP Edit 設定"
+
+#: main.php:1721
+msgid "Database Options"
+msgstr "資料庫設定"
+
+#: main.php:1707
+msgid "Save User Specific Options"
+msgstr "儲存個別使用者功能設定"
+
+#: main.php:1696
+msgid "Private Highlight"
+msgstr "[私密] 的醒目提示"
+
+#: main.php:1691
+msgid "Future Highlight"
+msgstr "[已排程] 的醒目提示"
+
+#: main.php:1686
+msgid "Published Highlight"
+msgstr "[已發表] 的醒目提示"
+
+#: main.php:1681
+msgid "Pending Highlight"
+msgstr "[待審中] 的醒目提示"
+
+#: main.php:1676
+msgid "Draft Highlight"
+msgstr "[草稿] 的醒目提示"
+
+#: main.php:1673
+msgid "Enable the Highlight Options below."
+msgstr "為以下發表狀態啟用醒目提示。"
+
+#: main.php:1670
+msgid "Enable Highlights"
+msgstr "啟用醒目提示"
+
+#: main.php:1666
+msgid "Meaning.. saved posts can be yellow, published posts can be blue, etc."
+msgstr "這代表使用者可以將已儲存的文章標註為黃色，而已發表的文章標註為藍色，每種發表狀態的醒目色彩都可以個別設定。"
+
+#: main.php:1665
+msgid "These options will allow each user to customize highlight colors for each post/page status."
+msgstr "以下設定能讓個別使用者自訂每一種文章/頁面發表狀態的醒目提示色彩。"
+
+#: main.php:1660
+msgid "Post/Page Highlight Colors"
+msgstr "文章/頁面醒目提示色彩"
+
+#: main.php:1651
+msgid "Disables WP Edit Pro News Feed dashboard widget."
+msgstr "停用在控制台的 [WP Edit Pro RSS 摘要] 小工具。"
+
+#: main.php:1648
+msgid "Disable Dashboard Widget"
+msgstr "停用控制台小工具"
+
+#: main.php:1645
+msgid "Always display VISUAL tab when editor loads."
+msgstr "載入編輯器時，永遠顯示 [預覽] 標籤。"
+
+#: main.php:1642
+msgid "Default VISUAL Tab"
+msgstr "永遠顯示 [預覽] 標籤"
+
+#: main.php:1639
+msgid "Hide the editor TEXT tab from view."
+msgstr "從編輯器中隱藏 [文字] 標籤。"
+
+#: main.php:1636
+msgid "Hide TEXT Tab"
+msgstr "隱藏 [文字] 標籤"
+
+#: main.php:1633
+msgid "Adds a column to post/page list view for displaying thumbnails."
+msgstr "在文章/頁面列表檢視中新增顯示縮圖的欄位。"
+
+#: main.php:1630
+msgid "Thumbnail Column"
+msgstr "縮圖欄位"
+
+#: main.php:1627
+msgid "Adds a column to post/page list view for displaying the post/page ID."
+msgstr "在文章/頁面列表檢視中新增顯示文章/頁面 ID 的欄位。"
+
+#: main.php:1624
+msgid "ID Column"
+msgstr "ID 欄位"
+
+#: main.php:1620
+msgid "These options are stored in individual user meta; meaning each user can set these options independently from one another."
+msgstr "以下設定會儲存於個別的使用者中繼資料中，這代表每一位使用者都可以擁有專屬設定而不會互相影響。"
+
+#: main.php:1615
+msgid "User Specific Options"
+msgstr "個別使用者功能設定"
+
+#: main.php:1563
+msgid "shortcode."
+msgstr "短代碼插入至任何地方的內容區塊。"
+
+#: main.php:1563
+msgid "Use the editor below to create a content chunk that can be inserted anywhere using the"
+msgstr "使用下方的編輯器建立一個可使用"
+
+#: main.php:1562
+msgid "Signoff Text"
+msgstr "簽核內容"
+
+#: main.php:1556
+msgid "Extra Options"
+msgstr "附加功能設定"
+
+#: main.php:1539
+msgid "Save Editor Options"
+msgstr "儲存編輯器設定"
+
+#: main.php:1510
+msgid "For Example: If <strong>em</strong> is selected; possible values could be <strong>1em 1.1em 1.2em</strong> etc."
+msgstr "使用範例: 如果選取了 <strong>em</strong> 作為文字大小的尺寸單位，尺寸大小的值則可為 <strong>1em 1.1em 1.2em</strong>。"
+
+#: main.php:1509
+msgid "Values should be space separated; and end with the chosen font size type (selected above)."
+msgstr "各個數值必須以半形空格分隔，並在數值後方加上上方所選的文字大小尺寸單位。"
+
+#: main.php:1508
+msgid "Define available font-size values for Font Size dropdown box."
+msgstr "這項設定定義了 [文字大小] 下拉式選單中可用的文字大小尺寸。"
+
+#: main.php:1505
+msgid "Dropdown Editor Font-Size Type Values"
+msgstr "編輯器文字大小單位值"
+
+#: main.php:1502
+msgid "Select the editor font size type displayed in the \"Font Size\" button dropdown menu."
+msgstr "選取在 [文字大小] 按鈕下拉式選單中顯示的尺寸單位。"
+
+#: main.php:1500
+msgid "%"
+msgstr "%"
+
+#: main.php:1499
+msgid "em"
+msgstr "em"
+
+#: main.php:1498
+msgid "pt"
+msgstr "pt"
+
+#: main.php:1497
+msgid "px"
+msgstr "px"
+
+#: main.php:1495
+msgid "Dropdown Editor Font-Size Type"
+msgstr "編輯器文字大小單位"
+
+#: main.php:1491
+msgid "These options will adjust various parts of the TinyMCE initialization process."
+msgstr "以下設定會調整多項 TinyMCE 初始化處理程序。"
+
+#: main.php:1487
+msgid "TinyMCE Options"
+msgstr "TinyMCE 設定"
+
+#: main.php:1478
+msgid "Adds predefined styles to the \"Formats\" dropdown button."
+msgstr "將預先定義樣式加入 [格式] 下拉式表單按鈕中。"
+
+#: main.php:1475
+msgid "Add Pre-defined Styles"
+msgstr "新增預先定義樣式"
+
+#: main.php:1463
+msgid "Please be sure the \"Formats\" button is active in the editor."
+msgstr "請確認已在編輯器中啟用 [格式] 按鈕。"
+
+#: main.php:1462
+msgid "Adds predefined styles; which can be applied to editor content."
+msgstr "新增可套用於編輯器內容的預先定義樣式。"
+
+#: main.php:1458
+msgid "Styles Options"
+msgstr "樣式設定"
+
+#: main.php:1441
+msgid "Save Posts/Pages Options"
+msgstr "儲存文章/頁面設定"
+
+#: main.php:1433
+msgid "Hide selected pages from admin view. ID comma separated (1,5,14,256)"
+msgstr "從管理檢視中隱藏選取的頁面，請將頁面 ID 以半形逗點加以分隔，例如 1,5,14,256。"
+
+#: main.php:1430
+msgid "Hide Admin Pages"
+msgstr "從管理檢視中隱藏頁面"
+
+#: main.php:1427
+msgid "Hide selected posts from admin view. ID comma separated (1,5,14,256)"
+msgstr "從管理檢視中隱藏選取的文章，請將文章 ID 以半形逗點加以分隔，例如 1,5,14,256。"
+
+#: main.php:1424
+msgid "Hide Admin Posts"
+msgstr "從管理檢視中隱藏文章"
+
+#: main.php:1418
+msgid "Hide Posts and Pages"
+msgstr "隱藏文章及頁面"
+
+#: main.php:1407
+msgid "Current size of revisions stored in database:"
+msgstr "目前所有文章版本在資料庫中所佔的大小:"
+
+#: main.php:1398
+msgid "Revisions DB Size"
+msgstr "文章版本所佔的資料庫大小"
+
+#: main.php:1395
+msgid "Delete all database revisions."
+msgstr "刪除資料庫中目前所保留的所有文章版本。"
+
+#: main.php:1392
+msgid "Delete Revisions"
+msgstr "刪除文章版本"
+
+#: main.php:1389
+msgid "Set max number of Page Revisions to store in database. (empty = unlimited)"
+msgstr "設定在資料庫中可保留的頁面版本最大值，留空代表不限制。"
+
+#: main.php:1386
+msgid "Max Page Revisions"
+msgstr "可保留的頁面版本最大值"
+
+#: main.php:1383
+msgid "Set max number of Post Revisions to store in database. (empty = unlimited)"
+msgstr "設定在資料庫中可保留的文章版本最大值，留空代表不限制。"
+
+#: main.php:1380
+msgid "Max Post Revisions"
+msgstr "可保留的文章版本最大值"
+
+#: main.php:1374
+msgid "Page Revisions"
+msgstr "文章/頁面版本"
+
+#: main.php:1365
+msgid "Disable the filter responsible for removing p and br tags."
+msgstr "停用用於移除 p 與 br 標籤的篩選器。"
+
+#: main.php:1362
+msgid "Disable wpautop()"
+msgstr "停用 wpautop() 函式"
+
+#: main.php:1359
+msgid "Enable the column shortcodes functionality."
+msgstr "啟用欄位短代碼功能。"
+
+#: main.php:1356
+msgid "Column Shortcodes"
+msgstr "欄位短代碼"
+
+#: main.php:1353
+msgid "Change the default \"add new\" post/page title field."
+msgstr "這項設定能變更新增文章/頁面時的標題欄位預設值。"
+
+#: main.php:1350
+msgid "Post/Page Default Title"
+msgstr "文章/頁面預設標題"
+
+#: main.php:1343
+msgid "Posts/pages Options"
+msgstr "文章/頁面設定"
+
+#: main.php:1315
+msgid "Save General Options"
+msgstr "儲存一般設定"
+
+#: main.php:1263
+msgid "Use modified editor in profile biography field."
+msgstr "在個人資料欄位中使用進階編輯器。"
+
+#: main.php:1260
+msgid "Profile Editor"
+msgstr "個人資料編輯器"
+
+#: main.php:1285
+msgid "Add the WP Edit editor to the Page Excerpt area."
+msgstr "在頁面摘要欄位中使用 WP Edit 編輯器。"
+
+#: main.php:1282
+msgid "WP Edit Page Excerpt"
+msgstr "WP Edit 頁面摘要"
+
+#: main.php:1279
+msgid "Add the WP Edit editor to the Post Excerpt area."
+msgstr "在文章摘要欄位中使用 WP Edit 編輯器。"
+
+#: main.php:1276
+msgid "WP Edit Post Excerpt"
+msgstr "WP Edit 文章摘要"
+
+#: main.php:1257
+msgid "Use shortcodes in excerpt areas."
+msgstr "在摘要區域中使用短代碼。"
+
+#: main.php:1254
+msgid "Shortcodes in Excerpts"
+msgstr "摘要中的短代碼"
+
+#: main.php:1251
+msgid "Use shortcodes in widget areas."
+msgstr "在小工具區域中使用短代碼。"
+
+#: main.php:1248
+msgid "Shortcodes in Widgets"
+msgstr "小工具中的短代碼"
+
+#: main.php:1245
+msgid "Use the [break] shortcode to insert linebreaks in the editor."
+msgstr "使用 [break] 短代碼在編輯器中插入分行符號。"
+
+#: main.php:1242
+msgid "Linebreak Shortcode"
+msgstr "分行符號短代碼"
+
+#: main.php:1223
+msgid "General Options"
+msgstr "一般設定"
+
+#: main.php:1204
+msgid "Save Global Options"
+msgstr "儲存全域設定"
+
+#: main.php:1196
+msgid "Disables the fancy tooltips used on button hover."
+msgstr "停用游標懸停於按鈕時的工具提示。"
+
+#: main.php:1193
+msgid "Disable Fancy Tooltips"
+msgstr "停用工具提示"
+
+#: main.php:1190
+msgid "Disables the WP Edit top admin bar links."
+msgstr "停用置頂管理列上的 WP Edit 連結。"
+
+#: main.php:1187
+msgid "Disable Admin Links"
+msgstr "停用管理列連結"
+
+#: main.php:1184
+msgid "Selects the jQuery theme for plugin alerts and notices."
+msgstr "<br>為外掛的警示及通知訊息選取 jQuery 佈景主題。"
+
+#: main.php:1171
+msgid "jQuery Theme"
+msgstr "jQuery 佈景主題"
+
+#: main.php:1156
+msgid "Global Options"
+msgstr "全域設定"
+
+#: main.php:1130
+msgid "All button rows will get the default WordPress button arrangements; and the extra buttons will be added to the \"Button Container\"."
+msgstr "所有按鈕項目列均會依 WordPress 按鈕的預設值進行排列，而其他額外的按鈕會加入 [按鈕容器] 中。"
+
+#: main.php:1129
+msgid "Clicking \"Reset Buttons\" will restore the editor buttons to their original default values."
+msgstr "按一下 [重設按鈕配置] 便能將編輯器按鈕還原至初始預設值。"
+
+#: main.php:1124
+msgid "Clicking outside the button area will remove all currently active button selections."
+msgstr "按一下按鈕外部區域，便能取消所有按鈕的選取狀態。"
+
+#: main.php:1123
+msgid "Clicking and dragging one of the \"active\" buttons will move the entire \"active\" selection."
+msgstr "按一下並拖曳其中一個選取的按鈕，並能為所有選取的按鈕移動位置。"
+
+#: main.php:1122
+msgid "Clicking a button will set it as \"active\"; a yellowish highlight color. Multiple buttons can be clicked and set as \"active\"."
+msgstr "按一下任何一顆按鈕便能將其選取並標註為黃色，你可以一次就選取多個按鈕。"
+
+#: main.php:1119
+msgid "Buttons may also be selected in quantities; or multiple selections, before being moved."
+msgstr "在移動按鈕位置前，可先大量或多重選取多個按鈕。"
+
+#: main.php:1114
+msgid "The \"Button Container\" is a placeholder for buttons not used in the editor; these buttons will not appear when editing a post or page."
+msgstr "[按鈕容器] 是未使用於編輯器中的按鈕的預留位置。在編輯文章或頁面時，不會出現 [按鈕容器] 中的按鈕。"
+
+#: main.php:1113
+msgid "Buttons can be dragged and dropped into desired button rows."
+msgstr "按鈕可拖放至合適的按鈕項目列上。"
+
+#: main.php:1107 main.php:1761
+msgid "Reset"
+msgstr "重設"
+
+#: main.php:1106
+msgid "Multi Select"
+msgstr "多重選取"
+
+#: main.php:1105
+msgid "Drag/Drop"
+msgstr "拖放"
+
+#: main.php:1094
+msgid "Buttons Tips"
+msgstr "按鈕秘訣"
+
+#: main.php:1082
+msgid "Reset Buttons"
+msgstr "重設按鈕配置"
+
+#: main.php:1078
+msgid "Save Buttons"
+msgstr "儲存按鈕配置"
+
+#: main.php:518
+msgid "Button Container"
+msgstr "按鈕容器"
+
+#: main.php:493
+msgid "Button Rows"
+msgstr "按鈕項目列"
+
+#: main.php:485
+msgid "WP Edit Buttons"
+msgstr "WP Edit 按鈕"
+
+#: main.php:378
+msgid "WP Edit Settings"
+msgstr "WP Edit 設定"
+
+#: main.php:206
+msgid "Go Pro!"
+msgstr "升級至 Pro 版！"
+
+#: main.php:205
+msgid "Settings"
+msgstr "設定"
+
+#: includes/functions.php:827
+msgid "Number of posts to show:"
+msgstr "文章的展示數量:"
+
+#: includes/functions.php:774
+msgid "WP Edit Pro RSS Feed"
+msgstr "WP Edit Pro RSS 摘要"
+
+#: includes/functions.php:735
+msgid "None"
+msgstr "無"
+
+#: includes/functions.php:724
+msgid "Thumbnail"
+msgstr "縮圖"
+
+#: includes/functions.php:690
+msgid "ID"
+msgstr "ID"
+
+#: includes/functions.php:425
+msgid "Select which post types have the option to disable the wpautop filter."
+msgstr "選取要關閉 wpautop() 函式篩選器的文章類型。"
+
+#: includes/functions.php:407
+msgid "Toggle wpautop"
+msgstr "wpautop() 函式開關"
+
+#: includes/functions.php:248
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "在 [簡歷內容] 中填寫個人資料以便分享，在此填寫的內容會開放公開檢索。"
+
+#: includes/functions.php:241
+msgid "Biographical Info"
+msgstr "簡歷內容"
+
+#: includes/functions.php:183
+msgid "Wp Edit Excerpt"
+msgstr "WP Edit 摘要"
+
+#: includes/functions.php:151
+msgid "WP Edit Excerpt"
+msgstr "WP Edit 摘要"
+
+#: includes/functions.php:109 includes/functions.php:112 main.php:467
+msgid "About"
+msgstr "關於"
+
+#: includes/functions.php:100 includes/functions.php:103 main.php:466
+msgid "Database"
+msgstr "資料庫"
+
+#: includes/functions.php:91 includes/functions.php:94 main.php:465
+msgid "User Specific"
+msgstr "個別使用者功能"
+
+#: includes/functions.php:82 includes/functions.php:85 main.php:464
+msgid "Extras"
+msgstr "附加功能"
+
+#: includes/functions.php:73 includes/functions.php:76 main.php:463
+msgid "Editor"
+msgstr "編輯器"
+
+#: includes/functions.php:64 includes/functions.php:67 main.php:462
+msgid "Posts/Pages"
+msgstr "文章/頁面"
+
+#: includes/functions.php:55 includes/functions.php:58 main.php:461
+msgid "General"
+msgstr "一般"
+
+#: includes/functions.php:46 includes/functions.php:49 main.php:460
+msgid "Global"
+msgstr "全域"
+
+#: includes/functions.php:37 includes/functions.php:40 main.php:459
+msgid "Buttons"
+msgstr "按鈕配置"
+
+#. #-#-#-#-#  wp-edit-code.pot (WP Edit 4.0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/functions.php:29 main.php:330
+msgid "WP Edit"
+msgstr "WP Edit"

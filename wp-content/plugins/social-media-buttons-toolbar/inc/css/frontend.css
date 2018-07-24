@@ -1,0 +1,39 @@
+/*
+ * WordPress plugin Social Media Follow Buttons Bar by Space X-Chimp ( https://www.spacexchimp.com ).
+ *
+ * @package     Social Media Follow Buttons Bar
+ * @author      Arthur Gareginyan
+ * @link        https://www.spacexchimp.com
+ * @copyright   Copyright (c) 2016-2018 Space X-Chimp. All Rights Reserved.
+ */
+
+
+/* Reset styles to default for la and a elements */
+.sxc-follow-buttons li {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important;
+    display: inline-block !important;
+    border-bottom: 0 !important;
+    list-style-type: none !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.sxc-follow-buttons li::before {
+    content: "" !important;
+    content: none !important;
+}
+.sxc-follow-buttons li::after {
+    content: "" !important;
+    content: none !important;
+}
+.sxc-follow-buttons li a {
+    border-bottom: 0 !important;
+    display: inline !important;
+    box-shadow: none !important;
+}
+.sxc-follow-buttons li img {
+    margin: 0 !important;
+    padding: 0 !important;
+    vertical-align: top;
+}

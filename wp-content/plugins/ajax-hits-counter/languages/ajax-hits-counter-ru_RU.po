@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AJAX Hits Counter\n"
+"POT-Creation-Date: 2018-03-09 09:23+0200\n"
+"PO-Revision-Date: 2018-03-09 09:25+0200\n"
+"Last-Translator: Roman Telychko <roman@romantelychko.com>\n"
+"Language-Team: Roman Telychko <roman@romantelychko.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../ajax-hits-counter.php:70 ../ajax-hits-counter.php:627
+msgid "Import from"
+msgstr "Импорт из"
+
+#: ../ajax-hits-counter.php:71
+msgid "Imports views count (hits) from plugin"
+msgstr "Импорт просмотров (хитов) из плагина"
+
+#: ../ajax-hits-counter.php:71
+msgid "to hits of"
+msgstr "в хиты плагина"
+
+#: ../ajax-hits-counter.php:395
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../ajax-hits-counter.php:409
+msgid "Use very fast (\"rapid\") Hits Counter Script"
+msgstr "Использовать очень быстрый скрипт подсчёта просмотров (хитов)"
+
+#: ../ajax-hits-counter.php:418
+msgid "Don't count hits of admin users (only for non \"rapid\" Hits Counter Script)"
+msgstr "Не учитывать просмотры (хиты) для администраторов (только для нормально скрипта подсчета)"
+
+#: ../ajax-hits-counter.php:498
+msgid "Hits"
+msgstr "Просмотры"
+
+#: ../ajax-hits-counter.php:611 ../ajax-hits-counter.php:1548
+msgid "Hits count"
+msgstr "Количество просмотров (хитов)"
+
+#: ../ajax-hits-counter.php:647 ../ajax-hits-counter.php:653
+#: ../ajax-hits-counter.php:716
+msgid "We found"
+msgstr "Найдено"
+
+#: ../ajax-hits-counter.php:647 ../ajax-hits-counter.php:716
+msgid "no items"
+msgstr "0 элементов"
+
+#: ../ajax-hits-counter.php:647 ../ajax-hits-counter.php:653
+#: ../ajax-hits-counter.php:716
+msgid "to import from WP-PostViews plugin"
+msgstr "для импорта с плагина WP-PostViews"
+
+#: ../ajax-hits-counter.php:648 ../ajax-hits-counter.php:717
+msgid "Have I hice day"
+msgstr "Удачного дня"
+
+#: ../ajax-hits-counter.php:653 ../ajax-hits-counter.php:709
+msgid "items"
+msgstr "элементов"
+
+#: ../ajax-hits-counter.php:654
+msgid "To start import please click \"Start import\" button."
+msgstr "Для начала импорта пожалуйста нажмите кнопку \"Начать импорт\"."
+
+#: ../ajax-hits-counter.php:657
+msgid "Start import"
+msgstr "Начать импорт"
+
+#: ../ajax-hits-counter.php:709
+msgid "Imported"
+msgstr "Импортировано"
+
+#: ../ajax-hits-counter.php:710
+msgid "inserted"
+msgstr "добавлено"
+
+#: ../ajax-hits-counter.php:710
+msgid "updated"
+msgstr "обновлено"
+
+#: ../ajax-hits-counter.php:710
+msgid "skipped"
+msgstr "пропущено"
+
+#: ../ajax-hits-counter.php:711
+msgid "Thank you for choosing our plugin."
+msgstr "Благодарим Вас за использование нашего плагина."
+
+#: ../ajax-hits-counter.php:773 ../ajax-hits-counter.php:1396
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+#: ../ajax-hits-counter.php:775
+msgid "Displays popular posts/pages counted by"
+msgstr "Отображает популярные записи/страницы, подсчитанные плагином"
+
+#: ../ajax-hits-counter.php:1542
+msgid "Widget title"
+msgstr "Название виджета"
+
+#: ../ajax-hits-counter.php:1546
+msgid "Sorting algorithm (order by)"
+msgstr "Алгоритм сортировки"
+
+#: ../ajax-hits-counter.php:1549
+msgid "Comments count"
+msgstr "Количество комментариев"
+
+#: ../ajax-hits-counter.php:1550
+msgid "N * Hits count + K * Comments count"
+msgstr "N * количество просмотров + K * количество комментариев"
+
+#: ../ajax-hits-counter.php:1558
+msgid "Display count"
+msgstr "Отображаемое количество"
+
+#: ../ajax-hits-counter.php:1562
+msgid "Cache lifetime (in seconds)"
+msgstr "Время жизни кэша (в секундах)"
+
+#: ../ajax-hits-counter.php:1566
+msgid "Posts types"
+msgstr "Типы материалов"
+
+#: ../ajax-hits-counter.php:1568
+msgid "Posts & Pages"
+msgstr "Записи и страницы"
+
+#: ../ajax-hits-counter.php:1569
+msgid "Posts only"
+msgstr "Только записи"
+
+#: ../ajax-hits-counter.php:1570
+msgid "Pages only"
+msgstr "Только страницы"
+
+#: ../ajax-hits-counter.php:1575
+msgid "Include category"
+msgstr "Категория"
+
+#: ../ajax-hits-counter.php:1585
+msgid "Exclude posts from this category"
+msgstr "Исключить записи с этой категории"
+
+#: ../ajax-hits-counter.php:1598
+msgid "Posts publish date range"
+msgstr "Отобразить записи с датой публикации"
+
+#: ../ajax-hits-counter.php:1600
+msgid "Day"
+msgstr "За день"
+
+#: ../ajax-hits-counter.php:1601
+msgid "Week"
+msgstr "За неделю"
+
+#: ../ajax-hits-counter.php:1602
+msgid "Month"
+msgstr "За месяц"
+
+#: ../ajax-hits-counter.php:1603
+msgid "3 Months"
+msgstr "За 3 месяца"
+
+#: ../ajax-hits-counter.php:1604
+msgid "6 Months"
+msgstr "За 6 месяцев"
+
+#: ../ajax-hits-counter.php:1605
+msgid "Year"
+msgstr "За год"
+
+#: ../ajax-hits-counter.php:1606
+msgid "All time"
+msgstr "За всё время"
+
+#: ../ajax-hits-counter.php:1610
+msgid "Exclude Posts/Pages IDs (sep. by comma)"
+msgstr "Исключить записи/страницы по ID (через запятую)"
+
+#: ../ajax-hits-counter.php:1614
+msgid "Custom CSS (remove if unneeded)"
+msgstr "Пользовательский CSS (очистите, если не нужно)"
+
+#: ../ajax-hits-counter.php:1620
+msgid "HTML of one element/item"
+msgstr "HTML одного элемента"
+
+#: ../ajax-hits-counter.php:1620
+msgid "inside tag"
+msgstr "внутри тега"
+
+#: ../ajax-hits-counter.php:1622
+msgid "You can use this placeholders"
+msgstr "Вы можете использовать эти шаблоны/плейсхолдеры"
+
+#: ../ajax-hits-counter.php:1624
+msgid "Post ID"
+msgstr "ID записи/страницы"
+
+#: ../ajax-hits-counter.php:1625
+msgid "Post title"
+msgstr "Название записи/страницы"
+
+#: ../ajax-hits-counter.php:1626
+msgid "Post title, where"
+msgstr "Название записи/страницы, где"
+
+#: ../ajax-hits-counter.php:1626 ../ajax-hits-counter.php:1627
+msgid "is words count"
+msgstr "это количество слов"
+
+#: ../ajax-hits-counter.php:1626 ../ajax-hits-counter.php:1627
+#: ../ajax-hits-counter.php:1632
+msgid "For example"
+msgstr "Пример"
+
+#: ../ajax-hits-counter.php:1627
+msgid "Post excerpt, where"
+msgstr "Описание (excerpt) записи/страницы, где"
+
+#: ../ajax-hits-counter.php:1627 ../ajax-hits-counter.php:1632
+msgid "or"
+msgstr "или"
+
+#: ../ajax-hits-counter.php:1628
+msgid "Post author name"
+msgstr "Автор записи/страницы"
+
+#: ../ajax-hits-counter.php:1629
+msgid "Post author link"
+msgstr "Ссылка на автора записи/страницы"
+
+#: ../ajax-hits-counter.php:1630
+msgid "Post link"
+msgstr "Ссылка на запись/страницу"
+
+#: ../ajax-hits-counter.php:1631
+msgid "Post date"
+msgstr "Дата публикации записи/страницы"
+
+#: ../ajax-hits-counter.php:1632
+msgid "Post thumbnail with size"
+msgstr "Картинка записи/страницы с её размером"
+
+#: ../ajax-hits-counter.php:1633
+msgid "Links to post categories with"
+msgstr "Ссылки на категории записи/страницы"
+
+#: ../ajax-hits-counter.php:1633
+msgid "as separator"
+msgstr "в качестве разделителя"
+
+#: ../ajax-hits-counter.php:1634
+msgid "Post hits, counted by this plugin"
+msgstr "Количество просмотров (хитов) записи/страницы, посчитанные этим плагином"
+
+#: ../ajax-hits-counter.php:1635
+msgid "Post comments count"
+msgstr "Количество комментариев записи/страницы"
+
+#: ../ajax-hits-counter.php:1639
+msgid "Date format"
+msgstr "Формат отображения даты"
+
+#: ../ajax-hits-counter.php:1639
+msgid "for more info see"
+msgstr "смотрите"
+
+#: ../ajax-hits-counter.php:1639
+msgid "date() manual"
+msgstr "описание функции date()"
+
+#: ../ajax-hits-counter.php:1643
+msgid "Categories separator (if more than one)"
+msgstr "Разделитель категорий записи/страницы (если более одной)"
+
+#: ../ajax-hits-counter.php:1647
+msgid "Hits count format"
+msgstr "Формат вывода количества просмотров (хитов)"
+
+#: ../ajax-hits-counter.php:1719
+msgid "Any"
+msgstr "Любая"
+
+#: ../ajax-hits-counter.php:1720
+msgid "Current Category / Any"
+msgstr "Текущая категория / Любая"
+
+#: ../ajax-hits-counter.php:1721
+msgid "None"
+msgstr "Отсутствует"
+
+#~ msgid "Use very fast (rapid) Hits Counter Script (ATTENTION! Required Wordpress version 3.4 or higher"
+#~ msgstr "Использовать очень быстрый скрипт подсчёта хитов (Внимание! Необходим Wordpress версии 3.4 и выше)"

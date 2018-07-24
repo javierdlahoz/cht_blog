@@ -1,0 +1,32 @@
+@import url('http://fonts.googleapis.com/css?family=Ribeye+Marrow');
+@import url('http://fonts.googleapis.com/css?family=Pinyon+Script');
+@import url('http://fonts.googleapis.com/css?family=Signika');
+
+			label.ribeyemarrow{
+				font-family: 'Ribeye Marrow' !important;
+			}
+			label.pinyonscript{
+				font-family: 'Pinyon Script' !important;
+			}
+			label.signika{
+				font-family: 'Signika' !important;
+			}
+	select#postfont_font{
+		font-size:30px !important; 
+	}
+
+	select#postfont_font optgroup{
+		font-weight:bold;
+		background:#dfdfdf;
+	}
+
+	select#postfont_font option{
+		font-weight:normal;
+		background:white;
+	}
+
+	td.fontTd{
+		font-size:18px !important;
+	}
+
+	

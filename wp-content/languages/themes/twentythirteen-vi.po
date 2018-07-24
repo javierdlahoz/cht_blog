@@ -1,0 +1,313 @@
+# Translation of Themes - Twenty Thirteen in Vietnamese
+# This file is distributed under the same license as the Themes - Twenty Thirteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-10-22 10:28:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - Twenty Thirteen\n"
+
+#. Description of the plugin/theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "Giao diện 2013 cho WordPress đưa chúng ta quay lại với blog cùng với tất cả các định dạng bài viết , mỗi dạng bài được hiển thị đẹp mắt theo cách độc đáo. Nhiều chi tiết thiết kế, bắt đầu với một bảng màu sống động và hình ảnh tiêu đề phù hợp, kiểu chữ và các biểu tượng đẹp, và bố cục linh hoạt hiển thị hoàn hảo trên bất kỳ thiết bị nào, lớn hay nhỏ."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Thirteen"
+msgstr "Theme 2013"
+
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "%s Lưu trữ"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Lưu trữ cho từ khóa: %s"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+#: inc/custom-header.php:59
+msgctxt "header image description"
+msgid "Star"
+msgstr "Ngôi sao"
+
+#: inc/custom-header.php:54
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "Kim cương"
+
+#: inc/custom-header.php:49
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Vòng tròn"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Giao diện 2013 yêu cầu phiên bản WordPress 3.6 trở lên. Bạn đang sử dụng phiên bản %s. Hãy nâng cấp và thử lại sau."
+
+#: image.php:58
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:57
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Trước đó"
+
+#: image.php:45
+msgid "Full resolution"
+msgstr "Phân giải tối đa"
+
+#: image.php:44
+msgid "Link to full-size image"
+msgstr "Liên kết tới ảnh gốc"
+
+#: image.php:28
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Chuyển đến nội dung"
+
+#: header.php:43
+msgid "Menu"
+msgstr "Trình đơn"
+
+#: functions.php:397
+msgid "Permalink to %s"
+msgstr "Liên kết cứng tới %s"
+
+#: functions.php:391
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s on %2$s"
+
+#: functions.php:371
+msgid "View all posts by %s"
+msgstr "Xem tất cả bài viết bằng %s"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:356 functions.php:362
+msgid ", "
+msgstr ", "
+
+#: functions.php:350
+msgid "Sticky"
+msgstr "Dán"
+
+#: functions.php:332
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:331
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:328
+msgid "Post navigation"
+msgstr "Điều hướng bài viết"
+
+#: functions.php:302
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bài viết mới hơn <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:298
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Bài viết cũ hơn"
+
+#: functions.php:294
+msgid "Posts navigation"
+msgstr "Điều hướng bài viết"
+
+#: functions.php:271
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Hiển thị trên các bài viết và trang tại sidebar."
+
+#: functions.php:269
+msgid "Secondary Widget Area"
+msgstr "Widget phụ"
+
+#: functions.php:261
+msgid "Appears in the footer section of the site."
+msgstr "Hiển thị tại phần cuối trang."
+
+#: functions.php:259
+msgid "Main Widget Area"
+msgstr "Khu vực widget chính"
+
+#: functions.php:246
+msgid "Page %s"
+msgstr "Trang %s"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:137
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "Bật"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:131
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "Bật"
+
+#: functions.php:97
+msgid "Navigation Menu"
+msgstr "Thanh điều hướng"
+
+#: footer.php:19
+msgid "Proudly powered by %s"
+msgstr "Tự hào được phát triển từ %s"
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Có lẽ chũng tôi không thể thấy những gì bạn đang tìm kiếm. Bạn có thể dùng tìm kiếm."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Rất tiếc, không có dữ liệu nào khớp với từ khóa bạn tìm kiếm. Hãy thử lại với các từ khóa khác."
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bạn đã sẵn sàng đăng tải bài viết đầu tiên chưa? <a href=\"%1$s\">Hãy bắt đầu tại đây</a>."
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "View all % comments"
+msgstr "Xem tất cả % bình luận"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "One comment so far"
+msgstr "Hiện tại, đã có một bình luận"
+
+#: content-gallery.php:43 content-image.php:39 content-quote.php:29
+#: content-video.php:39 content.php:56
+msgid "Leave a comment"
+msgstr "Để lại phản hồi"
+
+#: content-aside.php:27 content-aside.php:35 content-audio.php:38
+#: content-chat.php:36 content-gallery.php:46 content-image.php:42
+#: content-link.php:19 content-quote.php:32 content-status.php:26
+#: content-video.php:42 content.php:31 image.php:50 page.php:39
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: content-aside.php:20 content-audio.php:31 content-chat.php:30
+#: content-gallery.php:31 content-image.php:30 content-link.php:31
+#: content-quote.php:20 content-status.php:20 content-video.php:30
+#: content.php:48 image.php:76 page.php:35
+msgid "Pages:"
+msgstr "Trang:"
+
+#. translators: %s: Name of current post
+#: content-aside.php:16 content-audio.php:27 content-chat.php:26
+#: content-gallery.php:27 content-image.php:26 content-link.php:27
+#: content-quote.php:16 content-status.php:16 content-video.php:26
+#: content.php:44 functions.php:506
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Tiếp tục đọc %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Không cho phép ghi chú."
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "Các bình luận mới hơn&rarr;"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; Những bình luận cũ hơn"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Điều hướng bình luận"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bình luận về &ldquo;%2$s&rdquo;"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "Chuyên mục lưu trữ: %s"
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "Tất cả bài viết của %s"
+
+#: author-bio.php:30
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Xem tất cả các bài viết của %s <span class=\"meta-nav\">&rarr</span>"
+
+#: author-bio.php:26
+msgid "About %s"
+msgstr "Về %s"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ thường niên: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Không tìm thấy dữ liệu nào tại đây. Hãy thử tìm kiếm?"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Ngại quá nhỉ?"
+
+#: 404.php:16
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 2.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:19
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Nhóm quản trị WordPress"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"

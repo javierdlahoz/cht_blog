@@ -1,0 +1,6 @@
+Thanks for downloading the Post Font Selector plugin! Hopefully you enjoy it. 
+
+INSTALL INSTRUCTIONS
+
+1. Put the plugin folder into your wp-content/plugins directory
+2. Make sure that css/fontSelect.css and css/frontEndFonts.css are both 777 so that we can write these when you make changes to your settings.

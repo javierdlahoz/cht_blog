@@ -1,0 +1,52 @@
+/*
+Project:    
+	* Font Burner
+	* http://fontburner.com
+	* Font Burner was designed and developed by Adrian Hanft http:adrian3.com
+
+sIFR Credits:
+    * sIFR 3: Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
+	* Current development can be found at <http://novemberborn.net/>
+	* sIFR 3 is licensed under the CC-GNU LGPL - http://creativecommons.org/licenses/LGPL/2.1/
+*/
+
+
+/*---- Font Burner Styles ---*/
+.sIFR-flash {
+  visibility: visible !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sIFR-unloading .sIFR-flash {
+  visibility: hidden !important;
+}
+
+.sIFR-replaced, .sIFR-ignore {
+  visibility: visible !important;
+}
+
+.sIFR-alternate {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.sIFR-replaced div.sIFR-fixfocus {
+  margin: 0pt; 
+  padding: 0pt; 
+  overflow: auto; 
+  letter-spacing: 0px; 
+  float: none;
+}
+
+.sIFR-dummy { 
+  width: 0px;
+  height: 0px;
+  margin-left: 42px;
+  z-index: 0;
+}

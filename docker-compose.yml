@@ -1,0 +1,26 @@
+version: '3.2'
+volumes:
+  blog-data:
+services:
+  mysql:
+    ports:
+      - "3306:3306"
+    container_name: blog_mysql
+    restart: always
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_USER: 'user'
+      MSYQL_PASS: 'user'
+    volumes:
+      - blog-data:/var/lib/mysql
+  app:
+    build: .
+    ports:
+      - "80:8080"
+    volumes:
+      - type: bind
+        source: .
+        target: /var/www/html
+    stdin_open: true
+    tty: true

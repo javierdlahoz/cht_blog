@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-sm-6 no-padding-col">
+        <a class="no-effect-anchor" href="{{mainPost.link}}">
+            <div class="latest-post-container" style="background-image: url('{{mainPost.first_image}}')">
+                <div class="latest-post-content-wrapper">
+                    <h4 ng-bind-html="mainPost.title.rendered"></h4>
+                    <div ng-bind-html="mainPost.excerpt.rendered"></div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-sm-6 no-padding-col">
+        <a class="no-effect-anchor" href="{{secondaryPost.link}}">
+            <div class="second-post-container" style="background-image: url('{{secondaryPost.first_image}}')" ng-if="secondaryPost">
+                <div class="latest-post-content-wrapper">
+                    <h4 ng-bind-html="secondaryPost.title.rendered"></h4>
+                    <div ng-bind-html="secondaryPost.excerpt.rendered"></div>
+                </div>
+            </div>
+        </a>
+        <follow-us></follow-us>
+    </div>
+</div>
