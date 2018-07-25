@@ -4,7 +4,8 @@ window.angularApp
       restrict: 'E',
       scope: {
         mainPost: '=mainPost',
-        secondaryPost: '=secondaryPost'
+        secondaryPost: '=secondaryPost',
+        thirdPost: '=thirdPost'
       },
       templateUrl: '/wp-content/themes/accelerate/js/angular/directives/hero-posts.html',
       controller: ['$scope', '$sce', function HeroPostsDirectiveController($scope, $sce) {
@@ -15,6 +16,10 @@ window.angularApp
         if ($scope.secondaryPost) {
           $scope.secondaryPost.title.rendered = $sce.trustAsHtml($scope.secondaryPost.title.rendered);
           $scope.secondaryPost.excerpt.rendered = $sce.trustAsHtml($scope.secondaryPost.excerpt.rendered);
+        }
+        if ($scope.thirdPost) {
+          $scope.thirdPost.title.rendered = $sce.trustAsHtml($scope.thirdPost.title.rendered);
+          $scope.thirdPost.excerpt.rendered = $sce.trustAsHtml($scope.thirdPost.excerpt.rendered);
         }
       }]
     };

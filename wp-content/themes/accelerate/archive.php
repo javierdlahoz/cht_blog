@@ -3,7 +3,7 @@
 	<?php do_action( 'accelerate_before_body_content' ); ?>
 
 	<div id="primary">
-		<div id="content" class="clearfix container">
+		<div id="content" class="clearfix container-fluid main-container">
 
 			<?php if ( have_posts() ) : ?>
 
@@ -71,13 +71,11 @@
                 <div ng-app="chtBlog" ng-controller="ArchiveController as archive" ng-init="archive.initialize('<?php echo $term->term_id ?>')">
 
                     <loading ng-if="archive.loading"></loading>
+                    <hero-posts main-post="archive.latestPost" secondary-post="archive.secondPost" third-post="archive.thirdPost" ng-if="!archive.loading"></hero-posts>
 
-                    <hero-posts main-post="archive.latestPost" secondary-post="archive.secondPost" ng-if="!archive.loading"></hero-posts>
-                    <div class="container">
-                        <div class="row">
-                            <post-card class="col-md-6 col-lg-4" post="post" ng-repeat="post in archive.posts"></post-card>
-                        </div>
-                    </div><!-- #content -->
+                    <div class="row">
+                        <post-card class="col-md-6 col-lg-4" post="post" ng-repeat="post in archive.posts"></post-card>
+                    </div>
                 </div>
 
 			<?php else : ?>

@@ -2247,22 +2247,6 @@ iframe#wp-custom-header-video {
 		margin: 0;
 	}
 }
-@media only screen and (max-width: 420px) {
-	.gallery-columns-4 .gallery-item,
-	.gallery-columns-5 .gallery-item,
-	.gallery-columns-6 .gallery-item,
-	.gallery-columns-7 .gallery-item,
-	.gallery-columns-8 .gallery-item,
-	.gallery-columns-9 .gallery-item {
-		width:33.33%;
-	}
-}
-@media only screen and (max-width: 400px) {
-	#featured-slider .slider-title-head .entry-title a {
-		font-size: 12px;
-		padding: 0 8px;
-	}
-}
 
 /* Remove the updated class from entry meta */
 .entry-meta .updated {
@@ -2312,7 +2296,7 @@ button#wp-custom-header-video-button {
 
 .latest-post-container {
 	width: 100%;
-	height: 700px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2340,7 +2324,7 @@ button#wp-custom-header-video-button {
 
 .second-post-container {
 	width: 100%;
-	height: 485px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2543,4 +2527,42 @@ img.size-large {
 
 .searchform {
 	border: 0 !important;
+}
+
+.hero-post-card, .box-adjustment {
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 420px) {
+    .gallery-columns-4 .gallery-item,
+    .gallery-columns-5 .gallery-item,
+    .gallery-columns-6 .gallery-item,
+    .gallery-columns-7 .gallery-item,
+    .gallery-columns-8 .gallery-item,
+    .gallery-columns-9 .gallery-item {
+        width:33.33%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #featured-slider .slider-title-head .entry-title a {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
+    .second-post-container {
+        height: 320px !important;
+    }
+
+    .latest-post-container {
+        height: 320px !important;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .latest-post-content-wrapper p {
+        font-size: 13px;
+    }
 }
