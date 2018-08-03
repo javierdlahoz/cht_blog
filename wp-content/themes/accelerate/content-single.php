@@ -8,6 +8,8 @@
  */
 ?>
 
+<?php include('inc/send-email.php')?>
+
 <div class="container">
     <div class="row h-center">
         <div class="col-md-10 col-md-offset-1">
@@ -42,3 +44,4 @@
         </div>
     </div>
 </div>
+
