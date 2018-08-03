@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-sm-6 no-padding-col">
+    <div class="col-md-4 col-sm-6 hero-post-card">
         <a class="no-effect-anchor" href="{{mainPost.link}}">
             <div class="latest-post-container" style="background-image: url('{{mainPost.first_image}}')">
                 <div class="latest-post-content-wrapper">
@@ -9,7 +9,7 @@
             </div>
         </a>
     </div>
-    <div class="col-sm-6 no-padding-col">
+    <div class="col-md-4 col-sm-6 hero-post-card">
         <a class="no-effect-anchor" href="{{secondaryPost.link}}">
             <div class="second-post-container" style="background-image: url('{{secondaryPost.first_image}}')" ng-if="secondaryPost">
                 <div class="latest-post-content-wrapper">
@@ -18,6 +18,15 @@
                 </div>
             </div>
         </a>
-        <follow-us></follow-us>
+    </div>
+    <div class="col-md-4 col-sm-6 hero-post-card">
+        <a class="no-effect-anchor" href="{{thirdPost.link}}">
+            <div class="second-post-container" style="background-image: url('{{thirdPost.first_image}}')" ng-if="thirdPost">
+                <div class="latest-post-content-wrapper">
+                    <h4 ng-bind-html="thirdPost.title.rendered"></h4>
+                    <div ng-bind-html="thirdPost.excerpt.rendered"></div>
+                </div>
+            </div>
+        </a>
     </div>
 </div>

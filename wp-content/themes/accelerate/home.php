@@ -13,12 +13,17 @@ get_header(); ?>
         <loading ng-if="home.loading"></loading>
 
 		<div id="content" class="clearfix featured-posts container-fluid main-container" ng-if="!home.loading">
-            <hero-posts main-post="home.latestPost" secondary-post="home.secondPost"></hero-posts>
+            <hero-posts main-post="home.latestPost" secondary-post="home.secondPost" third-post="home.thirdPost"></hero-posts>
         </div>
         <div class="container-fluid main-container">
             <div class="row">
                 <post-card class="col-md-6 col-lg-4" post="post" ng-repeat="post in home.posts"></post-card>
             </div>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+            <div class="row" ng-if="!home.loading">
+                <div class="col-md-12 box-adjustment">
+                    <follow-us></follow-us>
+                </div>
+            </div>
+		</div>
+	</div>
 <?php get_footer(); ?>

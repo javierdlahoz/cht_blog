@@ -10,7 +10,8 @@ function PostService($http, $sce)
     getLatestPost: function(cb) {
       $http({
         url: baseUrl + '&per_page=1',
-        method: 'GET'
+        method: 'GET',
+        cache: true
       }).then(function (response) {
         response.data[0].first_image = getFirstImageFromContent(response.data[0].content.rendered);
         return cb(response.data[0]);
@@ -21,7 +22,8 @@ function PostService($http, $sce)
       $http({
         url: baseUrl,
         method: 'GET',
-        params: query
+        params: query,
+        cache: true
       }).then(function (response) {
         for(var i = 0; i < response.data.length; i++) {
           response.data[i].first_image = getFirstImageFromContent(response.data[i].content.rendered);

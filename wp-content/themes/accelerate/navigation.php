@@ -12,7 +12,11 @@ $prevPost = get_previous_post();
                     <post-card class="col-sm-6" post="post" ng-repeat="post in navigation.posts"></post-card>
                 </div>
                 <loading ng-if="navigation.loading"></loading>
-                <follow-us></follow-us>
+                <div class="row">
+                    <div class="col-md-12 box-adjustment">
+                        <follow-us></follow-us>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
