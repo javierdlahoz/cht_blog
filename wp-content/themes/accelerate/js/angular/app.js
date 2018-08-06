@@ -29,6 +29,9 @@ jQuery(document).ready(function ($) {
 });
 
 function submitEmail(token) {
+    jQuery("#modal-captions").hide();
+    jQuery("#modal-messages").show();
+
     jQuery.ajax('http://localhost:8080/public/subscribe-from-blog', {
         type: 'POST',
         data: {
@@ -37,7 +40,17 @@ function submitEmail(token) {
         },
         success: function () {
             notShowModalAgain();
-            jQuery("#emailModalForm").modal('toggle');
+            jQuery("#modal-processing").hide();
+            jQuery("#subscribe-email-form").hide();
+
+            jQuery("#thank-you-modal").show();
+            setTimeout(function () {
+                jQuery("#emailModalForm").modal('toggle');
+            }, 6000);
+        },
+        error: function () {
+            jQuery("#modal-processing").hide();
+            jQuery("#error-modal").show();
         }
     });
 }

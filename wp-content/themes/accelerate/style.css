@@ -2630,3 +2630,8 @@ img.size-large {
 .grecaptcha-badge {
     display: none;
 }
+
+.btn-transparent {
+    background-color: transparent !important;
+    border: 2px solid !important;
+}
