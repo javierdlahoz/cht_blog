@@ -1,13 +1,12 @@
 window.angularApp.factory('PostService', PostService);
 
-function PostService($http, $sce)
-{
+function PostService($http, $sce) {
   var baseUrl = '/wp-json/wp/v2/posts';
   var self = this;
   self.sce = $sce;
 
   return {
-    getLatestPost: function(cb) {
+    getLatestPost: function (cb) {
       $http({
         url: baseUrl + '&per_page=1',
         method: 'GET',
@@ -18,15 +17,19 @@ function PostService($http, $sce)
       });
     },
 
-    getPosts: function(query = {}, cb) {
+    getPosts: function (query = {}, cb) {
       $http({
         url: baseUrl,
         method: 'GET',
         params: query,
         cache: true
       }).then(function (response) {
-        for(var i = 0; i < response.data.length; i++) {
-          response.data[i].first_image = getFirstImageFromContent(response.data[i].content.rendered);
+        for (var i = 0; i < response.data.length; i++) {
+          if (response.data[i].better_featured_image) {
+            response.data[i].first_image = response.data[i].better_featured_image.source_url;
+          } else {
+            response.data[i].first_image = getFirstImageFromContent(response.data[i].content.rendered);
+          }
         }
 
         return cb(response.data);
@@ -35,7 +38,7 @@ function PostService($http, $sce)
   }
 }
 
-getFirstImageFromContent = function(content) {
+getFirstImageFromContent = function (content) {
   var elem = document.createElement("div");
   elem.innerHTML = content;
 
@@ -45,8 +48,7 @@ getFirstImageFromContent = function(content) {
     images[0].src.indexOf('http://charityhowto.com/') < 0 &&
     images[0].src.indexOf('legacy.charityhowto.com') < 0 &&
     images[0].src.indexOf('www.charityhowto.com') < 0
-  )
-  {
+  ) {
     var src = images[0].src;
     elem.remove();
     return src;
