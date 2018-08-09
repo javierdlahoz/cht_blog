@@ -8,16 +8,17 @@
                     <i class="fa fa-close"></i>
                 </button>
                 <div id="modal-captions" style="display: block">
-                    <h3 class="modal-email-title text-center">Let's Keep in Touch!</h3>
-                    <h5 class="modal-email-title text-center"><i>Get valuable information</i> from the leading Nonprofit Topic
-                        Experts straight to your inbox</h5>
+                    <h3 class="modal-email-title text-center">Get Invited!</h3>
+                    <h5 class="modal-email-title text-center">
+                        Get invited to our <b>FREE</b> and premium webinars from the leading nonprofit topic experts straight to your inbox.
+                    </h5>
                 </div>
                 <div id="modal-messages" class="text-center" style="display: none; margin-top: 40px">
                     <h2 class="modal-email-text" id="thank-you-modal" style="display: none">
-                        Thank you for subscribing!
+                        Thank you!
                     </h2>
                     <h6 class="modal-email-text" id="error-modal" style="display: none">
-                        The subscription was not successful
+                        The invite was not sent successful
                     </h6>
                     <h6 id="modal-processing">Processing...</h6>
                 </div>
@@ -29,8 +30,8 @@
                                aria-label="johndoe@mail.com" aria-describedby="basic-addon2" id="subscriber-email">
                     </div>
                     <button class="g-recaptcha btn-transparent" data-sitekey="6Lf9nmYUAAAAALqJTSH41n_jvQP9PS_EXKTsMQn8"
-                            data-callback='submitEmail' id="buttonemail" type="button">I WANT TO
-                        SUBSCRIBE!
+                            data-callback='submitEmail' id="buttonemail" type="button">
+                        INVITE ME
                     </button>
                 </form>
             </div>
