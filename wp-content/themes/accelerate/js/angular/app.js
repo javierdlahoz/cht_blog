@@ -32,7 +32,7 @@ function submitEmail(token) {
   jQuery("#modal-captions").hide();
   jQuery("#modal-messages").show();
 
-  jQuery.ajax('http://localhost:8080/public/subscribe-from-blog', {
+  jQuery.ajax('https://www.charityhowto.com/subscribe-from-blog', {
     type: 'POST',
     data: {
       token: token,
