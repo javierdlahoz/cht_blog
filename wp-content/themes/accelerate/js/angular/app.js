@@ -32,8 +32,10 @@ function submitEmail(token) {
   jQuery("#modal-captions").hide();
   jQuery("#modal-messages").show();
 
+  // jQuery.ajax('http://app.charityhowto.com:8080/public/subscribe-from-blog', {
   jQuery.ajax('https://www.charityhowto.com/subscribe-from-blog', {
     type: 'POST',
+    xhrFields: {withCredentials: true},
     data: {
       token: token,
       email: jQuery("#subscriber-email").val()
@@ -212,4 +214,48 @@ function setEmailModalAsHidden(expirationDays) {
  *  End
  *  Jquery Cookie
  */
-/** Get the parent product element */
+
+
+/** Set domain charityhowto.com in cookie */
+
+jQuery(document).ready(function ($) {
+  
+  if (ga) {
+      var gaCallback = function (){
+          ga(function(tracker) {
+              var utmData = {
+                  'utmSource' : QueryString('utm_source'),
+                  'utmMedium' : QueryString('utm_medium'),
+                  'utmCampaign' : QueryString('utm_campaign'),
+                  'utmTerm' : QueryString('utm_term'),
+                  'utmContent' : QueryString('utm_content')
+              };
+              
+              var referrer =  tracker.get('referrer');
+              if(referrer && !utmData.utmSource)
+                  utmData.utmSource = referrer.replace(/^https?\:\/\//i, "");
+              else if (!referrer && !utmData.utmSource)
+                  utmData.utmSource = 'Direct';
+                  
+              if ($.cookie('ga_contact_referrer') === undefined) {
+                  //capture Lead source
+                  console.log($.cookie('ga_contact_referrer', JSON.stringify(utmData), { expires: 1, path: '/', domain: 'charityhowto.com'}));
+              }
+          });
+          return true;
+      };
+     
+      
+      ga('send', 'pageview', {'hitCallback': function() {
+        gaCallback();
+      }});
+  }
+});
+
+function QueryString(variable) {
+  return location.search.substring(1).split("&")
+    .map(function (p) { return p.split("=") })
+    .filter(function (p) { return p[0] == variable })
+    .map(function (p) { return decodeURIComponent(p[1]) })
+    .pop();
+}
