@@ -212,4 +212,46 @@ function setEmailModalAsHidden(expirationDays) {
  *  End
  *  Jquery Cookie
  */
-/** Get the parent product element */
+
+
+/** Set domain charityhowto.com in cookie */
+
+jQuery(document).ready(function ($) {
+  
+  if (ga) {
+      var gaCallback = function (){
+        
+          ga(function(tracker) {
+            
+              var utmData = {
+                  // 'utmSource' : QueryString('utm_source'),
+                  // 'utmMedium' : QueryString('utm_medium'),
+                  // 'utmCampaign' : QueryString('utm_campaign'),
+                  // 'utmTerm' : QueryString('utm_term'),
+                  // 'utmContent' : QueryString('utm_content')
+                  'utmContent' : "casa-pipo-piu"
+              };
+              
+              var referrer =  tracker.get('referrer');
+              
+              if(referrer && !utmData.utmSource)
+                  utmData.utmSource = referrer.replace(/^https?\:\/\//i, "");
+              else if (!referrer && !utmData.utmSource)
+                  utmData.utmSource = 'Direct';
+                  
+              if ($.cookie('ga_contact_referrer') === undefined) {
+                  //capture Lead source
+                  $.cookie('ga_contact_referrer', JSON.stringify(utmData), { expires: 1, path: '/', domain: 'charityhowto.com'});                  
+              } 
+              
+          });
+          
+          return true;
+      };
+     
+      
+      ga('send', 'pageview', {'hitCallback': function() {
+        gaCallback();
+      }});
+  }
+});
